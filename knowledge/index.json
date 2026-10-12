@@ -1324,6 +1324,46 @@
   ]
  },
  {
+  "path": "games/gta-san-andreas/gta-sa-aim-strafe-and-armed-sprint.md",
+  "kind": "game",
+  "title": "8-way aim strafing, crouched strafes and armed sprinting in GTA San Andreas",
+  "game": "Grand Theft Auto: San Andreas",
+  "games_also": [],
+  "game_version": "1.0 US gta_sa.exe (timestamp 0x427101CA), Mod Loader, CLEO 4.4.4 + CLEO+, SilentPatch",
+  "platform": "windows",
+  "engine": "native",
+  "route": "native-hook",
+  "tools": [
+   "MSVC 2022 / CMake",
+   "plugin-sdk headers",
+   "SafetyHook-style verified byte patches",
+   "gta-reversed (reference)",
+   "dumpbin /disasm",
+   "Python IFP (ANP3) reader/writer",
+   "Mixamo Pro Rifle Pack"
+  ],
+  "anti_cheat": "none (single-player)",
+  "status": "working",
+  "agents": [
+   "Claude Code (Opus 5.5)"
+  ],
+  "humans": [],
+  "date": "2026-10-12",
+  "links": [],
+  "tags": [
+   "animation",
+   "ifp",
+   "anp3",
+   "aim",
+   "strafe",
+   "crouch",
+   "sprint",
+   "retarget",
+   "crash-fix",
+   "cleo"
+  ]
+ },
+ {
   "path": "games/gta-v/minecraft-passthrough.md",
   "kind": "game",
   "title": "Minecraft inside GTA V (passthrough mod)",
